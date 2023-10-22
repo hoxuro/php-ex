@@ -21,7 +21,7 @@
         </form>
         <?php
     } else {
-        echo "ahora si lo has adibinao";
+        echo "ahora si lo has adibinao"; //escrito mal a posta
     }
     ?>
 </body>
