@@ -1,0 +1,17 @@
+.form-login {
+  margin-top: 20px;
+}
+
+#activado {
+  margin-left: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.gallery-box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
