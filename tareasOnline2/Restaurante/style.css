@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  max-width: 40rem;
+  margin: 0 auto;
+  background-image: linear-gradient(
+    to right top,
+    #c22e3a,
+    #dc5f38,
+    #ee8c3a,
+    #faba48,
+    #ffe764
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 30px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.pedidosForm {
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+select {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.group {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+input {
+  font-size: 20px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.cesta {
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 10px 30px;
+}

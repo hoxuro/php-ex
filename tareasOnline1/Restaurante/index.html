@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+      body {
+        font-family: "Roboto", sans-serif;
+        max-width: 40rem;
+        margin: 0 auto;
+
+        background-image: linear-gradient(
+          to right top,
+          #b9d6f2,
+          #95bbe0,
+          #70a0ce,
+          #4886bc,
+          #006daa
+        );
+        background-repeat: no-repeat;
+        height: 100vh;
+      }
+
+      h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #fff;
+        filter: drop-shadow(2px 2px 5px #000);
+      }
+
+      form {
+        margin-top: 20px;
+        font-size: 20px;
+
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 12px;
+      }
+
+      input[type="text"] {
+        font-size: 20px;
+      }
+
+      input[type="submit"] {
+        font-size: 20px;
+      }
+
+      input[type="submit"]:hover {
+        cursor: pointer;
+      }
+
+      .group {
+        margin-bottom: 20px;
+      }
+
+      select,
+      option {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Menú del día</h2>
+    <form action="./restaurante.php" method="post">
+      <div class="group">
+        <label for="numMesa">Número de mesa:</label>
+        <select name="numMesa" id="numMesa">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+
+      <div class="group">
+        <label for="nombre">Nombre del camarero:</label>
+        <input type="text" name="nombre" />
+      </div>
+
+      <div class="group">
+        <label for="apellidos">Apellidos del camarero:</label>
+        <input type="text" name="apellidos" />
+      </div>
+
+      <div class="group">
+        <label for="primerPlato">Selecciona primer plato:</label>
+        <select name="primerPlato" id="primerPlato">
+          <option value=""></option>
+          <option value="Ensalada de Quinoa y Verduras Asadas">
+            Ensalada de Quinoa y Verduras Asadas
+          </option>
+          <option value="Sopa de Tomate y Albahaca">
+            Sopa de Tomate y Albahaca
+          </option>
+          <option value="Risotto de Champiñones y Espárragos">
+            Risotto de Champiñones y Espárragos
+          </option>
+        </select>
+      </div>
+
+      <div class="group">
+        <label for="segundoPlato">Selecciona primer plato:</label>
+        <select name="segundoPlato" id="segundoPlato">
+          <option value=""></option>
+          <option value="Filete de Salmón con Salsa de Eneldo">
+            Filete de Salmón con Salsa de Eneldo
+          </option>
+          <option value="Lomo de Cerdo a la Mostaza y Miel">
+            Lomo de Cerdo a la Mostaza y Miel
+          </option>
+          <option value="Risotto de Champiñones y Trufa">
+            Risotto de Champiñones y Trufa
+          </option>
+        </select>
+      </div>
+
+      <div class="group">
+        <label for="bebida">Selecciona bebida:</label>
+        <select name="bebida" id="bebida">
+          <option value=""></option>
+          <option value="Vino y casera">Vino y casera</option>
+          <option value="Blue Label de Johnnie Walker">
+            Blue Label de Johnnie Walker
+          </option>
+          <option value="Coca-Cola">Coca-Cola</option>
+        </select>
+      </div>
+
+      <div class="group">
+        <p>Extras:</p>
+        <label for="pan">Pan</label>
+        <input type="checkbox" id="pan" name="pan" />
+        <label for="mantequilla">Mantequilla</label>
+        <input type="checkbox" id="mantequilla" name="mantequilla" />
+        <label for="puro">Puro</label>
+        <input type="checkbox" id="puro" name="puro" />
+      </div>
+
+      <input type="submit" value="Realizar Pedido" />
+    </form>
+  </body>
+</html>

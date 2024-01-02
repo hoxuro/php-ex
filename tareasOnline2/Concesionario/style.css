@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  max-width: 65%;
+  margin: 0 auto;
+  height: 120vh;
+}
+
+.logo-box {
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: 10px 0 20px 0;
+}
+
+.main-box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.main-img-box {
+  flex: 0 1 47%;
+  height: 700px;
+  border-radius: 5px;
+
+  background-image: url(./carsImg/main.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.main-img-box2 {
+  flex: 0 1 47%;
+  height: 700px;
+  border-radius: 5px;
+
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.car-1 {
+  height: 600px;
+  background-image: url(./carsImg/porsche-model.png);
+}
+
+.car-2 {
+  height: 600px;
+  background-image: url(./carsImg/porsche-model-718.png);
+}
+
+.car-3 {
+  height: 600px;
+  background-image: url(./carsImg/porsche-model-cayenne.png);
+}
+
+.car-4 {
+  height: 600px;
+  background-image: url(./carsImg/porsche-model-panamera.png);
+}
+
+.finan-img {
+  height: 600px;
+  background-image: url(./carsImg/finance.jpg);
+}
+
+.main-form {
+  flex: 0 1 35%;
+  max-width: 50rem;
+  height: fit-content;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: 1px solid silver;
+}
+
+select {
+  font-size: 18px;
+}
+
+option {
+  font-size: 18px;
+}
+
+.group {
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px 10px;
+  background-color: #ccc;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #bbb;
+}
+
+.form2 input[type="submit"] {
+  width: 100px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.textImporte {
+  font-size: 18px;
+}
+
+.textImporte span {
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="number"] {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.finan-box {
+  flex: 0 1 50%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.img-finan {
+  flex: 0 0 40%;
+  height: 300px;
+  background-image: url(./carsImg/shaking.jpg);
+}
+
+p span {
+  font-weight: 500;
+}
+
+.formLogin {
+  max-width: fit-content;
+  margin: 0 auto;
+}
